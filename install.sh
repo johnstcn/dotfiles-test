@@ -2,6 +2,6 @@
 
 set -x
 
-ssh-add -l
+ssh-add -l || true
 
-ssh -T git@github.com
+ssh -T git@github.com || true
