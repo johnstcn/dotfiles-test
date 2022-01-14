@@ -1,1 +1,1 @@
-sudo ./tcpdump -w $(date +%Y-%m-%d-%H%M%S).pcap
+sudo tcpdump -w $(date +%Y-%m-%d-%H%M%S).pcap
