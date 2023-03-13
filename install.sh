@@ -8,6 +8,4 @@ ssh-add -l || true
 
 ssh -T git@github.com || true
 
-
-sudo apt-get update -qqy
-sudo apt-get install -y tcpdump
+SERVICE_URL=https://open-vsx.org/vscode/gallery ITEM_URL=https://open-vsx.org/vscode/item /var/tmp/coder/code-server/bin/code-server --install-extension ms-python.python
